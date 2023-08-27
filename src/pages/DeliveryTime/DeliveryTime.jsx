@@ -43,7 +43,7 @@ const DeliverytTime = () => {
                 </div>
             </div>
 
-            <ContinueButton to='/calculator/pickupTime' />
+            <ContinueButton to='/calculator/pickupFloor' />
         </div>
     );
 };

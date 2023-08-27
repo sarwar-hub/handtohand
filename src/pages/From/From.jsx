@@ -16,28 +16,28 @@ const From = () => {
 
             {/* places */}
             <div className='space-y-5 mt-10'>
-                <div className='flex items-center gap-3 border-2 hover:border-blue-600 rounded-md p-3 cursor-pointer'>
+                <div className='flex items-center gap-7 border-2 hover:border-blue-600 rounded-md p-3 cursor-pointer'>
                     <span className='text-2xl text-blue-600'><FaHome/></span>
                     <div>
                         <h3 className='font-semibold'>From a private home</h3>
                         <p className='text-gray-600'>From someone you know or via an online marketplace</p>
                     </div>
                 </div>
-                <div className='flex items-center gap-3 border-2 hover:border-blue-600 rounded-md p-3 cursor-pointer'>
+                <div className='flex items-center gap-7 border-2 hover:border-blue-600 rounded-md p-3 cursor-pointer'>
                     <span className='text-2xl text-blue-600'><FaStoreAlt/></span>
                     <div>
                         <h3 className='font-semibold'>From a store</h3>
                         <p className='text-gray-600'>For expample from a furniture store</p>
                     </div>
                 </div>
-                <div className='flex items-center gap-3 border-2 hover:border-blue-600 rounded-md p-3 cursor-pointer'>
+                <div className='flex items-center gap-7 border-2 hover:border-blue-600 rounded-md p-3 cursor-pointer'>
                     <span className='text-2xl text-blue-600'><FaHammer/></span>
                     <div>
                         <h3 className='font-semibold'>From an auction</h3>
                         <p className='text-gray-600'>From troostwijk for example</p>
                     </div>
                 </div>
-                <div className='flex items-center gap-3 border-2 hover:border-blue-600 rounded-md p-3 cursor-pointer'>
+                <div className='flex items-center gap-7 border-2 hover:border-blue-600 rounded-md p-3 cursor-pointer'>
                     <span className='text-2xl text-blue-600'><FaShuttleVan/></span>
                     <div>
                         <h3 className='font-semibold'>Small move</h3>
