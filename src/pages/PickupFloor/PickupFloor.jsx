@@ -14,7 +14,7 @@ const PickupFloor = () => {
             </div>
 
             <h1 className='text-3xl font-bold mt-5 mb-2'>Pickup: Where are the items?</h1>
-            <p className='text-sm text-gray-500'>The damage insurance applies from door to door and not to indoors</p>
+            <p className='text-sm text-gray-500'>The damage insurance applies from door to door and not indoors.</p>
 
             {/* places */}
             <div className='space-y-5 mt-10'>
@@ -117,7 +117,7 @@ const PickupFloor = () => {
                
             </div>
 
-            <ContinueButton to='/calculator/items'/>
+            <ContinueButton to='/calculator/deliveryFloor'/>
         </div>
     );
 };
