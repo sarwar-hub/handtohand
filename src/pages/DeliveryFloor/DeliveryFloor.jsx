@@ -8,7 +8,7 @@ const DeliveryFloor = () => {
     return (
         <div>
             <div className='flex items-center gap-5'> 
-                <span className='font-bold h-[40px] w-[40px] rounded-full flex justify-center text-blue-600 text-3xl bg-blue-100'>7</span>
+                <span className='font-bold h-[40px] w-[40px] rounded-full flex justify-center text-blue-600 text-3xl bg-blue-100'>8</span>
                 <h2 className='font-semibold text-blue-600 grow'>Delivery floor</h2>
                 <p className='text-blue-600 flex items-center gap-1'><FaInfoCircle/> More info</p>
             </div>
@@ -117,7 +117,7 @@ const DeliveryFloor = () => {
                
             </div>
 
-            <ContinueButton to='/calculator/items'/>
+            <ContinueButton to='/calculator/extraHelp'/>
         </div>
     );
 };
