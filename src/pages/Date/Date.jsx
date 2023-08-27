@@ -40,7 +40,7 @@ const Date = () => {
                 <label className='cursor-pointer' for="date">Select a different delivery date</label>
             </div>
 
-            <ContinueButton to='/calculator/deliveryTime' />
+            <ContinueButton to='/calculator/pickupTime' />
         </div>
     );
 };
