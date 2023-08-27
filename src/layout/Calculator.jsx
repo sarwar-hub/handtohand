@@ -1,6 +1,7 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import { BiSolidMapPin, BiDownArrowAlt, BiMapPin, BiDotsVerticalRounded } from "react-icons/bi";
+import { FaHome } from 'react-icons/fa';
 const Calculator = () => {
     return (
         <div className='md:flex'>
@@ -10,7 +11,9 @@ const Calculator = () => {
 
             {/* sidebar */}
             <div className='bg-blue-200 md:w-[30%] hidden md:block p-10 sticky right-0 top-0'>
-                <h3 className='text-xl font-bold text-blue-600'>Your Delivery</h3>
+                {/* back to home link */}
+                <Link to='/'><span className='text-blue-600 text-lg hover:underline mb-5 block'>← Back to HOME</span></Link>
+                <h3 className='text-xl font-bold'>Your Delivery</h3>
                 <h3 className='font-semibold text-blue-600'>Dresser (wood)</h3>
                 <p className='text-sm text-gray-700'>140X40X40</p>
                 <div className='flex items-center justify-between py-2'>
